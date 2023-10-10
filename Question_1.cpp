@@ -12,12 +12,12 @@
 #include <iostream>
 using namespace std;
 int main(){
-
+    //Declaring variables and initializing regular rate for male and female
     double OverTimeRateMal, OverTimeRateFem, RegularRateMal = 500, RegularRateFem = 550, HoursWorked, GrossPay;
     int NumOfChildren;
     char Gender;
 
-    //Declaring Constants
+    //Initializing Constants
     OverTimeRateMal = 1.5 * RegularRateMal;
     OverTimeRateFem = 1.5 * RegularRateFem;
 
