@@ -49,7 +49,7 @@ int main(){
     //Computing for Educational Fund
     if(NumOfChildren > 3){
         if(Gender =='M')
-            EduFund = 10 * (NumOfChildren -3);
+            EduFund = 10 * (NumOfChildren - 3);
         else
             EduFund = 20 * (NumOfChildren - 3);
     }
